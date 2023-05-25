@@ -6,18 +6,17 @@
 /*   By: sofgonza <sofgonza@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/19 12:44:27 by sofgonza          #+#    #+#             */
-/*   Updated: 2023/05/25 19:53:04 by sofgonza         ###   ########.fr       */
+/*   Updated: 2023/05/25 20:05:54 by sofgonza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef PRINTF_H
-# define PRINTF_H
+#ifndef FT_PRINTF_H
+# define FT_PRINTF_H
 # include <stdlib.h>
 # include <unistd.h>
 # include <stdarg.h>
-# include <stdio.h>
 
-int ft_printf(char const *fromat, ...);
+int	ft_printf(char const *fromat, ...);
 int	ft_format(char *format, va_list arg);
 int	ft_putchar(int c);
 int	ft_putstr(char *s);

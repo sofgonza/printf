@@ -6,7 +6,7 @@
 /*   By: sofgonza <sofgonza@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/19 12:44:36 by sofgonza          #+#    #+#             */
-/*   Updated: 2023/05/25 19:54:50 by sofgonza         ###   ########.fr       */
+/*   Updated: 2023/05/25 20:03:26 by sofgonza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,9 +36,9 @@ int	ft_format(char *format, va_list arg)
 	return (i);
 }
 
-int ft_printf(char const *format, ...)
+int	ft_printf(char const *format, ...)
 {
-	int	i;
+	int		i;
 	va_list	arg;
 
 	va_start(arg, format);

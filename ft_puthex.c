@@ -6,7 +6,7 @@
 /*   By: sofgonza <sofgonza@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/14 10:09:26 by sofgonza          #+#    #+#             */
-/*   Updated: 2023/05/25 19:55:10 by sofgonza         ###   ########.fr       */
+/*   Updated: 2023/05/25 20:06:09 by sofgonza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ int	ft_puthex(unsigned int n, char format)
 		{
 			if (format == 'x')
 				i += ft_putchar(n - 10 + 'a');
-			else if(format == 'X')
+			else if (format == 'X')
 				i += ft_putchar(n - 10 + 'A');
 		}
 	}

@@ -6,7 +6,7 @@
 /*   By: sofgonza <sofgonza@student.42madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/24 11:30:03 by sofgonza          #+#    #+#             */
-/*   Updated: 2023/05/25 19:54:36 by sofgonza         ###   ########.fr       */
+/*   Updated: 2023/05/25 20:06:34 by sofgonza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ int	ft_puthex_ptr(unsigned long long n)
 
 int	ft_putptr(unsigned long long n)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	i += ft_putstr("0x");
